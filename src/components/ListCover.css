@@ -1,0 +1,13 @@
+.list_cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    list-style: none;
+    margin: var(--default_space) 0px;
+}
+
+.list_cover__image {
+    border-radius: 50%;
+    height: 75%;
+}

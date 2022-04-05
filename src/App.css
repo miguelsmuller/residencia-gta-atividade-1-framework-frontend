@@ -1,0 +1,22 @@
+.wrap {
+    height: 100vh;
+    max-width: 1080px;
+
+    margin: 0 auto;
+    padding: var(--espaco_padrao) 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    /* flex: 1 1 100%;
+    display: flex;
+    justify-content: space-around; */
+    align-content: center;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}

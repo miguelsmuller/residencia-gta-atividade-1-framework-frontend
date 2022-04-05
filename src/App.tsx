@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Navigation from './components/Navigation'
@@ -13,47 +12,19 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+    <div className='wrap'>
       <Navigation/>
-      <div>
+      <div className="container">
         <Routes>
           <Route path='/' element={<PageHome />}></Route>
-          <Route path='/media/:type' element={<PageFilms />}></Route>
-          <Route path='/media/:type' element={<PageSeries />}></Route>
+          <Route path='/media/films' element={<PageFilms />}></Route>
+          <Route path='/media/series' element={<PageSeries />}></Route>
           <Route path='/contacts' element={<PageContacts />}></Route>
         </Routes>
       </div>
+    </div>
     </BrowserRouter>
   );
 }
-
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-//caroll.......
-//entra no chat do live share
-
 
 export default App;
