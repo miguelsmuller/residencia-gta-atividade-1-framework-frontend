@@ -7,6 +7,6 @@
 ## **Aula 1 - Equipe 1 - 04/04/2022**
 
 - [Bruno Pazitto](https://github.com/brunopazitto)
-- [Olga Mahin](https://github.com/omahin)
+- [Carolina Guimaraes](https://github.com/carolguimari)
 - [Miguel Müller](https://github.com/miguelsmuller)
 - [Thais Buchweitz Alonso](https://github.com/buchevitss)
